@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            padding-bottom: 100px;
+        }
+        .container input {
+            border-radius: 10px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #e3e2e1;
+            font-weight: 700;
+        }
+
+        .Input_Number {
+            display: flex;
+            margin-top: 85px;
+            gap: 20px;
+            margin-left: 360px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        button {
+            margin-top: 40px;
+            border-radius: 10px;
+            background-color: #5d9bed;
+            padding: 12px 30px;
+            border: none;
+            font-weight: 700;
+            margin-left: 460px;
+        }
+        .container h2{
+            /* margin-right: 110px; */
+        }
+        input {
+            text-align: center;
+        }
+
+        .divBT8 {
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+            margin-left: 355px;
+            margin-top: 30px;
+        }
+        .Input_Number1{
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 85px;
+            gap: 125px;
+            margin-left: 360px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Tìm sinh viên xa trường nhất</h2>
+        <div class="Input_Number">
+            <h3>Sinh viên thứ nhất</h3>
+            <input id="Num1" type="text" placeholder="nhập tên" />
+            <input id="Num2" type="text" placeholder="nhập tọa độ X" />
+            <input id="Num3" type="text" placeholder="nhập tọa độ Y" />
+        </div>
+        <div class="Input_Number">
+            <h3>Sinh viên thứ hai</h3>
+            <input id="Num4" type="text" placeholder="nhập tên" />
+            <input id="Num5" type="text" placeholder="nhập tọa độ X" />
+            <input id="Num6" type="text" placeholder="nhập tọa độ Y" />
+        </div>
+        <div class="Input_Number">
+            <h3>Sinh viên thứ ba</h3>
+            <input id="Num7" type="text" placeholder="nhập tên" />
+            <input id="Num8" type="text" placeholder="nhập tọa độ X" />
+            <input id="Num9" type="text" placeholder="nhập tọa độ Y" />
+        </div>
+        <div class="Input_Number1">
+            <h3>Trường học</h3>
+          
+            <input id="Num10" type="text" placeholder="nhập tọa độ X" />
+            <input id="Num11" type="text" placeholder="nhập tọa độ Y" />
+        </div>
+        <button id="TimKiem" type="button">Tìm</button>
+        <div id="divBT8"></div>
+    </div>
+
+    <script src="/BT8/Js/index.js"></script>
+</body>
+</html>
