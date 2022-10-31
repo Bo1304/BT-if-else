@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            text-align: center;
+            margin-top: 50px;
+           
+        }
+        .container label{
+            font-size: 20px;
+        }
+        .container select{
+            font-size: 18px;
+            padding: 9px 30px;
+            border-radius: 10px;
+            background-color: rgb(238, 203, 160);
+        }
+        button {
+            margin-top: 40px;
+            border-radius: 10px;
+            background-color: #5d9bed;
+            padding: 15px 30px;
+            border: none;
+            font-weight: 700;
+            margin-left: 60px;
+        
+        }
+        .container h2{
+            margin-right: 0px;
+        }
+        .divBT2 {
+            background-color: rgb(180 241 180);
+            font-weight: 700;
+            border-radius: 10px;
+            width: 45%;
+            text-align: center;
+            padding: 10px;
+            margin-left: 355px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Chương Trình "Chào hỏi"</h2>
+        <label for="test">Chọn thành viên:</label>
+
+        <select id="Member">
+            <option  value="">Chọn thành viên</option>
+            <option id="Ny" value="1">Ni</option>
+            <option id="Dad" value="2">Bố</option>
+            <option id="Mom" value="3">Mẹ</option>
+            <option id="Brother" value="4">Anh Trai</option>
+            <option id="Síter" value="5">Em Gái</option>
+        </select>
+        <button id="Btap2" type="button" >Gửi lời chào</button>
+        <div id="divBT2"></div>
+    </div>
+
+
+  <script src="/BT2/Js/index.js"></script>
+</body>
+
+</html>
